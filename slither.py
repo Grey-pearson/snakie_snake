@@ -25,8 +25,7 @@ while running:
     screen.fill("purple")
     # start
 
-    square = Square(20, 20, GREEN, 20, screen)
-    square.draw_it()
+    # square.draw_it()
 
     # end
     # puts work on screen?
