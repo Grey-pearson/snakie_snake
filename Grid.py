@@ -1,4 +1,3 @@
-import Square
 import pygame
 
 x = 900
@@ -21,3 +20,18 @@ class Grid:
 
         for i in range(self.grid_size * 2):
             square = Square(20, 20, GREEN, 20, screen)
+
+
+class Square:
+    def __init__(self, x, y, color, width, screen):
+        self.x = x
+        self.y = y
+        self.color = color
+        self.width = width
+        self.screen = screen
+        pass
+
+    def draw_it(self):
+        pygame.draw.rect(
+            self.screen, self.color, (self.x, self.y, self.width, self.width), 0
+        )

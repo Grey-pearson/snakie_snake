@@ -1,6 +1,5 @@
 import pygame
 import pygame.display
-from Square import Square
 
 # set up
 pygame.init()

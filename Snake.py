@@ -1,5 +1,4 @@
 import pygame
-import Food
 
 STARTING_POSITIONS = [(0, 20, 0, 20)]
 MOVE_DISTANCE = 20
@@ -22,3 +21,7 @@ class Snake:
         #
 
         pass
+
+
+class Food:
+    pass
